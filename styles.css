@@ -1,3 +1,6 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
 .box {
   display: flex;
   justify-content: center;
@@ -7,10 +10,70 @@
 .inner-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  width: 500px;
 }
 .pic {
   width: 500px;
   height: auto;
   border-radius: 15px;
+}
+.simple{
+font-family: font-1;
+font-size: 25px;
+margin-bottom: 15px;
+}
+@font-face {
+    font-family: font-1;
+    src: url(YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: font-2;
+    src: url(Outfit-Regular.ttf);
+}
+.an-easy{
+    font-size: 12px;
+    font-family: font-2;
+    margin-bottom: 25px;
+}
+.purple-box{
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 12px;
+}
+.prep{
+    margin-left: 15px;
+    font-family: font-2;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+.prep-style{
+    font-family: font-2;
+    font-size: 12px;
+}
+.big-bold{
+    font-weight: bold;
+}
+ul.custom-list li{
+    margin-bottom: 10px;
+}
+.ingre{
+font-size: 20px;
+font-family: font-1;
+color: hsl(14, 45%, 36%);
+margin-top: 20px;
+}
+.ingre-style{
+    font-size: 12px;
+    font-family: font-2;
+    
+}
+.separator {
+    border: none;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 20px ;
 }
