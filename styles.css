@@ -100,3 +100,17 @@ ol.custom-list-2 li {
   font-family: font-2;
   margin-top: 10px;
 }
+.table-left{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.table-right{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
