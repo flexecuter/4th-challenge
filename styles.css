@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  scale: 100%;
 }
 .inner-box {
   display: flex;
@@ -100,17 +101,21 @@ ol.custom-list-2 li {
   font-family: font-2;
   margin-top: 10px;
 }
-.table-left{
-    margin-top: 20px;
-    margin-left: 25px;
+.table-left {
+  margin-top: 20px;
+  margin-right: 180px;
+  margin-left: 30px;
 }
-.table-right{
-    margin-top: 15px;
-    margin-left: 20px;
+.table-right {
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: font-2;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
 }
 .table-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  width: 100%;
 }
