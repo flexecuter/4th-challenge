@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  scale: 54%;
+  scale: 100%;
 }
 .inner-box {
   display: flex;
