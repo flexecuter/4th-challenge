@@ -4,8 +4,8 @@ body {
 .box {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start;
+  min-height: 100vh;
   scale: 100%;
 }
 .inner-box {
@@ -18,7 +18,7 @@ body {
   width: 500px;
 }
 .pic {
-  width: 500px;
+  width: 100%;
   height: auto;
   border-radius: 15px;
 }
